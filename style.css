@@ -1,3 +1,71 @@
 body {
-    background-color: #333;
+    background-color: #111;
+}
+
+
+.title-header {
+    color:white;
+    font-family: 'Train One', cursive;
+    text-align:center;
+    font-size: 100px;
+    opacity:84%;
+}
+
+.subtitle-header {
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    text-align:center;
+    font-weight: 500;
+    opacity:84%;
+}
+
+.bar {
+    background-color: #222;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    text-align:center;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    width:100%;
+}
+
+.bar .nav-item {
+    float:left;
+}
+
+.nav-item a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    opacity:84%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-item a:hover {
+    cursor:pointer;
+    background-color:#111;
+    opacity:100%;
+}
+
+.nav-item button {
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+    opacity:84%;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#222;
+    border:none;
+}
+
+.nav-item button:hover {
+    cursor:pointer;
+    background-color: #111;
+    opacity:100%;
 }
